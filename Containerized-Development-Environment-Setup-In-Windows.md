@@ -1,4 +1,4 @@
-# Linux (Development) Environment Setup In Windows
+# Containerized (Linux) Development Environment Setup In Windows
 
 ## Windows Terminal
 * Install *Windows Terminal* from Microsoft Store
@@ -28,3 +28,11 @@
   ![alt text](images/git-windows-1.png)
   ![alt text](images/git-windows-2.png)
   ![alt text](images/git-windows-3.png)
+
+## Rancher Desktop
+* Download and install *Rancher Desktop*
+* Launch *Rancher Desktop* with the following options
+* 
+* Wait for the intialization to complete by checking the progress at the bottom right of the window. When finished, it should be empty as shown in red box below.
+* Set the *preferences* for *Rancher Desktop* as below
+* 
