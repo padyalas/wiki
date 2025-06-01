@@ -55,4 +55,8 @@
   * Setup GCM for WSL
     * `git config --global credential.helper "/mnt/c/Pragram\ Files/Git/mingw64/bing/git-credential-manager.exe"`
 
-
+## Visual Studio Code
+* Download and install *Visual Studio Code* with the following options (leave the rest with default options)\
+  
+* Install *Remote Development Extension Pack*
+  
