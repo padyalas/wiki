@@ -57,6 +57,6 @@
 
 ## Visual Studio Code
 * Download and install *Visual Studio Code* with the following options (leave the rest with default options)\
-  
-* Install *Remote Development Extension Pack*
-  
+  ![alt text](images/visual-studio-code-1.jpg)
+* Install *Remote Development Extension Pack*\
+  ![alt text](images/visual-studio-code-extension-1.jpg)
