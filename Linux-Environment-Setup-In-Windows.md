@@ -4,10 +4,8 @@
 * Install *Windows Terminal* from Microsoft Store
 
 ## WSL
-* Enable the following windows features
-  * Virtual Machine Platform
-  * Windows Subsystem for Linux\
-    ![alt text](images/wsl-windows-features.png)
+* Enable the following windows features  
+  ![alt text](images/wsl-windows-features.png)
 * Restart when prompted
 * Install Ubuntu app (generally the first search result for *ubuntu*) from Microsoft store\
   <ins>Note:</ins> Ubuntu default distribution for WSL can be installed using the command `wsl --install` from PowerShell (run as administrator). However, it was stuck at downloading Ubuntu in my case.
@@ -26,4 +24,7 @@
     * `sudo apt autoremove`
 
 ## Git for Windows
-* Download and install *Git for Windows* with the following options
+* Download and install *Git for Windows* with the following options (leave the rest with default options)
+  ![alt text](images/git-windows-1.png)
+  ![alt text](images/git-windows-2.png)
+  ![alt text](images/git-windows-3.png)
