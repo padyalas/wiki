@@ -1,4 +1,4 @@
-# Linux (development) environment setup in Windows
+# Linux (Development) Environment Setup In Windows
 
 ## Windows Terminal
 * Install *Windows Terminal* from Microsoft Store
@@ -6,7 +6,8 @@
 ## WSL
 * Enable the following windows features
   * Virtual Machine Platform
-  * Windows Subsystem for Linux
+  * Windows Subsystem for Linux\
+    ![alt text](images/wsl-windows-features.png)
 * Restart when prompted
 * Install Ubuntu app (generally the first search result for *ubuntu*) from Microsoft store\
   <ins>Note:</ins> Ubuntu default distribution for WSL can be installed using the command `wsl --install` from PowerShell (run as administrator). However, it was stuck at downloading Ubuntu in my case.
