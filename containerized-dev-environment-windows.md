@@ -3,7 +3,7 @@
 ## WSL
 
 - Enable the following windows features\
-  ![alt text](../images/wsl-windows-features.png)
+  ![alt text](images/wsl-windows-features.png)
 - Restart when prompted
 - Install Ubuntu app (generally the first search result for *ubuntu*) from Microsoft store\
   <ins>Note:</ins> Ubuntu default distribution for WSL can be installed using the command `wsl --install` from PowerShell (run as administrator). However, it was stuck at downloading Ubuntu in my case.
@@ -23,23 +23,23 @@
 ## Git for Windows
 
 - Download and install *Git for Windows* with the following options (leave the rest with default options)\
-  ![alt text](../images/git-windows-1.png)
-  ![alt text](../images/git-windows-2.png)
-  ![alt text](../images/git-windows-3.png)
+  ![alt text](images/git-windows-1.png)
+  ![alt text](images/git-windows-2.png)
+  ![alt text](images/git-windows-3.png)
 
 ## Rancher Desktop
 
 - Download and install *Rancher Desktop*
 - Launch *Rancher Desktop* with the following options\
-  ![alt text](../images/rancher-desktop-1.jpg)
+  ![alt text](images/rancher-desktop-1.jpg)
 - Wait for the intialization to complete by checking the progress at the bottom right of the window. When finished, it should be empty as shown in red box below.\
-  ![alt text](../images/rancher-desktop-2.jpg)
+  ![alt text](images/rancher-desktop-2.jpg)
 - Set the *Preferences* for *Rancher Desktop* as below
   - Rancher Desktop &rarr; Preferences &rarr; Application &rarr; Behavior &rarr; Startup &rarr; Automatically start at login = Checked\
     Rancher Desktop &rarr; Preferences &rarr; Application &rarr; Behavior &rarr; Background &rarr; Start in the background = Checked\
-    ![alt text](../images/rancher-desktop-3.jpg)
+    ![alt text](images/rancher-desktop-3.jpg)
   - Rancher Desktop &rarr; Preferences &rarr; WSL &rarr; Integrations &rarr; Ubuntu = Checked\
-    ![alt text](../images/rancher-desktop-4.jpg)
+    ![alt text](images/rancher-desktop-4.jpg)
 
 ## Windows Terminal
 
@@ -62,6 +62,6 @@
 ## Visual Studio Code
 
 - Download and install *Visual Studio Code* with the following options (leave the rest with default options)\
-  ![alt text](../images/visual-studio-code-1.jpg)
+  ![alt text](images/visual-studio-code-1.jpg)
 - Install *Remote Development Extension Pack*\
-  ![alt text](../images/visual-studio-code-extension-1.jpg)
+  ![alt text](images/visual-studio-code-extension-1.jpg)
