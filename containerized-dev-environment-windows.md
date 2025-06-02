@@ -57,7 +57,7 @@
     - `git config --global user.email "youremail@domain.com"`
     - `git config --global init.defaultBranch main`
   - Setup GCM for WSL
-    - `git config --global credential.helper "/mnt/c/Pragram\ Files/Git/mingw64/bing/git-credential-manager.exe"`
+    - `git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"`
 
 ## Visual Studio Code
 

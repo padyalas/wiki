@@ -6,5 +6,5 @@
 
   ```yaml
   - run: |
-        echo ${{secrets.secret_name}} | sed 's/./& /g'
+      echo ${{secrets.secret_name}} | sed 's/./& /g'
   ```
