@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Containerized Development Environment Setup in Windows](docs/containerized-dev-environment-windows.md)
-- [Git Bash](docs/git-bash.md)
-- [AWS](docs/aws.md)
-- [Terraform](docs/terraform.md)
+- [Containerized Development Environment Setup in Windows](/docs/containerized-dev-environment-windows)
+- [Git Bash](/docs/git-bash)
+- [AWS](/docs/aws)
+- [Terraform](/docs/terraform)
