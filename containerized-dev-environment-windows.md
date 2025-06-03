@@ -41,7 +41,7 @@
   - Rancher Desktop &rarr; Preferences &rarr; WSL &rarr; Integrations &rarr; Ubuntu = Checked\
     ![alt text](images/rancher-desktop-4.jpg)
 
-## Windows Terminal
+## Windows Terminal & Starship
 
 - Install *Windows Terminal* from Microsoft Store
 - Open *Windows Terminal* and set the default profile to *WSL Ubuntu*
@@ -58,6 +58,53 @@
     - `git config --global init.defaultBranch main`
   - Setup GCM for WSL
     - `git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"`
+  - Install and configure *Starship* shell prompt
+    - `curl -sS https://starship.rs/install.sh | sh`
+    - Create the Starship configuration file:
+
+        ```bash
+        mkdir -p ~/.config
+
+        cat << 'EOF' > ~/.config/starship.toml
+        format = """$username@$hostname $directory$git_branch$git_status$character"""
+
+        [username]
+        show_always = true
+        style = "yellow"
+        disabled = false
+        format = "[$username]($style)"
+
+        [hostname]
+        ssh_only = false
+        style = "blue"
+        disabled = false
+        format = "[$hostname]($style)"
+
+        [directory]
+        truncation_length = 0
+        truncate_to_repo = false
+        symbol = "📁 "
+        style = "cyan"
+        format = "[$symbol$path]($style)"
+
+        [git_branch]
+        symbol = "🌱 "
+        style = "purple"
+        format = "[$symbol$branch]($style)"
+
+        [git_status]
+        symbol = "🔧 "
+        style = "red"
+        format = "[$symbol$all_status]($style)"
+
+        [character]
+        success_symbol = " [➜](green)"
+        error_symbol = " [✗](red)"
+        EOF
+        ```
+
+    - `echo 'eval "$(starship init bash)"' >> ~/.bashrc`
+    - `source ~/.bashrc`
 
 ## Visual Studio Code
 
