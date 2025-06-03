@@ -66,7 +66,7 @@
         mkdir -p ~/.config
 
         cat << 'EOF' > ~/.config/starship.toml
-        format = """$username@$hostname $directory $git_branch $character """
+        format = """$username@$hostname $directory $git_branch $character"""
 
         [username]
         show_always = true
@@ -84,16 +84,16 @@
         truncation_length = 0
         truncate_to_repo = false
         style = "cyan"
-        format = "[📁$path]($style)"
+        format = "[📁 $path]($style)"
 
         [git_branch]
-        symbol = "🌱"
+        symbol = "🌱 "
         style = "purple"
         format = "[$symbol$branch]($style)"
 
         [character]
-        success_symbol = "[➜](green)"
-        error_symbol = "[✘](red)"
+        success_symbol = "[➜](green) "
+        error_symbol = "[✘](red) "
         EOF
         ```
 
